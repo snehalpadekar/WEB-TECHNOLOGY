@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript" src="Assign1(3).js"></script>
+		<title>FORM</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+		$(document).ready(function(){
+			
+		$("#HIDE").click(function(){
+  			$("p").hide();
+		});
+		
+		$("#SHOW").click(function(){
+	  		$("p").show();
+		});
+		
+		$("#FADE_OUT").click(function(){
+			  $("h1").fadeOut("slow");
+		}); 
+		
+		$("#FADE_IN").click(function(){
+			  $("h1").fadeIn("slow");
+		}); 
+		
+		$("ANIMATE").click(function(){
+			  $("h1").animate();
+		});  
+		
+		
+		});
+		</script>
+	</head>
+	
+<body style="background-color:skyblue;">
+<center><b><h1>FORM</h1></b>
+<p>THE RECRUITMENT FORM</p></center>
+<button id=HIDE> HIDE</button>
+<button id=SHOW> SHOW</button>
+<button id=FADE_IN> FADE IN</button>
+<button id=FADE_OUT> FADE OUT</button>
+
+
+
+<form name="myform" onsubmit="return validation()">
+	NAME <input type=text name="Name" placeholder="Name"><br><br>
+	ADDRESS <input type=text name="Address"><br><br>
+	QUALIFICATION <input type=text name="Qualification"><br><br>
+	CONTACT NO <input type=text name="Contact no."><br><br>
+	EMAILID <input type=text name="Emailid"><br><br>
+	BDATE <input type=date><br><br>
+	BLOODGROUP
+	<select name="bloodgroup">
+		<option value="A">A
+		<option value="B">B
+		<option value="A+">A+
+	</select>
+	<br><br>
+	GENDER
+	<br><br>
+	<input type=radio>Male<br><br>
+	<input type=radio>Female<br><br>
+	CITY
+	<select name="City">
+		<option value="Pune">Pune
+		<option value="Mumbai">Mumbai
+		<option value="Banagalore">Banagalore
+	</select>
+	<br><br><br>
+	<input type="submit" value="submit">
+	<a href="Assign1(1).html"> Back to Home Page</a>
+</form>
+
+</body>
+</html>

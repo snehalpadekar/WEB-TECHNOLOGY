@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="A1.xsl"?>
+<student>
+	<comp>
+		<rollno>225</rollno>
+		<name>snehal</name>
+		<div>B</div>
+	</comp>
+	<comp>
+		<rollno>229</rollno>
+		<name>sumit</name>
+		<div>B</div>
+	</comp>
+</student>  
